@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		901BF0F11F96365E00D1934B /* GGDStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901BF0F01F96365E00D1934B /* GGDStringExtension.swift */; };
 		908E3A681F94FEDA00F609A2 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908E3A671F94FEDA00F609A2 /* R.generated.swift */; };
+		90A5491C1F95B5F5005D5A18 /* GGDUIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A5491B1F95B5F5005D5A18 /* GGDUIColorExtension.swift */; };
 		90F519861F9066DA00C128CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F519851F9066DA00C128CD /* AppDelegate.swift */; };
 		90F519881F9066DA00C128CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F519871F9066DA00C128CD /* ViewController.swift */; };
 		90F5198B1F9066DA00C128CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90F519891F9066DA00C128CD /* Main.storyboard */; };
@@ -47,7 +49,9 @@
 		61879E3CCEC12E2EEC0BD3CC /* Pods-SoulLiveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoulLiveTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoulLiveTests/Pods-SoulLiveTests.release.xcconfig"; sourceTree = "<group>"; };
 		6A993FC0D8EDA9025255791A /* Pods_SoulLiveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoulLiveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FE5A0C3CFB26960C701A950 /* Pods-SoulLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoulLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoulLive/Pods-SoulLive.release.xcconfig"; sourceTree = "<group>"; };
+		901BF0F01F96365E00D1934B /* GGDStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GGDStringExtension.swift; sourceTree = "<group>"; };
 		908E3A671F94FEDA00F609A2 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		90A5491B1F95B5F5005D5A18 /* GGDUIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GGDUIColorExtension.swift; sourceTree = "<group>"; };
 		90F519821F9066DA00C128CD /* SoulLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoulLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F519851F9066DA00C128CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90F519871F9066DA00C128CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				908E3A671F94FEDA00F609A2 /* R.generated.swift */,
+				90A5491B1F95B5F5005D5A18 /* GGDUIColorExtension.swift */,
+				901BF0F01F96365E00D1934B /* GGDStringExtension.swift */,
 			);
 			path = extension;
 			sourceTree = "<group>";
@@ -564,6 +570,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				90F519C61F909BAD00C128CD /* HomeViewController.swift in Sources */,
+				901BF0F11F96365E00D1934B /* GGDStringExtension.swift in Sources */,
+				90A5491C1F95B5F5005D5A18 /* GGDUIColorExtension.swift in Sources */,
 				90F519C21F909B6C00C128CD /* MainViewController.swift in Sources */,
 				90F519881F9066DA00C128CD /* ViewController.swift in Sources */,
 				90F519C41F909B9200C128CD /* GGDNavigationController.swift in Sources */,
