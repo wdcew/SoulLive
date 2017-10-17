@@ -1,0 +1,849 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		908E3A681F94FEDA00F609A2 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908E3A671F94FEDA00F609A2 /* R.generated.swift */; };
+		90F519861F9066DA00C128CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F519851F9066DA00C128CD /* AppDelegate.swift */; };
+		90F519881F9066DA00C128CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F519871F9066DA00C128CD /* ViewController.swift */; };
+		90F5198B1F9066DA00C128CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90F519891F9066DA00C128CD /* Main.storyboard */; };
+		90F5198D1F9066DA00C128CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90F5198C1F9066DA00C128CD /* Assets.xcassets */; };
+		90F519901F9066DA00C128CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90F5198E1F9066DA00C128CD /* LaunchScreen.storyboard */; };
+		90F5199B1F9066DA00C128CD /* SoulLiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F5199A1F9066DA00C128CD /* SoulLiveTests.swift */; };
+		90F519A61F9066DA00C128CD /* SoulLiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F519A51F9066DA00C128CD /* SoulLiveUITests.swift */; };
+		90F519C21F909B6C00C128CD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F519C11F909B6C00C128CD /* MainViewController.swift */; };
+		90F519C41F909B9200C128CD /* GGDNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F519C31F909B9200C128CD /* GGDNavigationController.swift */; };
+		90F519C61F909BAD00C128CD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F519C51F909BAD00C128CD /* HomeViewController.swift */; };
+		90F519C81F909BB300C128CD /* HomeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90F519C71F909BB300C128CD /* HomeStoryboard.storyboard */; };
+		A959EA252553E30A48E6E964 /* Pods_SoulLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A08DD02D6D84E2D99DD9C0E /* Pods_SoulLive.framework */; };
+		D2927EEE34A3A357D9D0F195 /* Pods_SoulLiveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A993FC0D8EDA9025255791A /* Pods_SoulLiveTests.framework */; };
+		E901C5D03BBA85EE53793E45 /* Pods_SoulLiveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDCFC3E8F5197D67E6389327 /* Pods_SoulLiveUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90F519971F9066DA00C128CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90F5197A1F9066DA00C128CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90F519811F9066DA00C128CD;
+			remoteInfo = SoulLive;
+		};
+		90F519A21F9066DA00C128CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90F5197A1F9066DA00C128CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90F519811F9066DA00C128CD;
+			remoteInfo = SoulLive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C2B2165E25E383E9BC21669 /* Pods-SoulLiveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoulLiveTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoulLiveTests/Pods-SoulLiveTests.debug.xcconfig"; sourceTree = "<group>"; };
+		26CFDD4E5D2E33D4F57BA0CA /* Pods-SoulLiveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoulLiveUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoulLiveUITests/Pods-SoulLiveUITests.release.xcconfig"; sourceTree = "<group>"; };
+		61879E3CCEC12E2EEC0BD3CC /* Pods-SoulLiveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoulLiveTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoulLiveTests/Pods-SoulLiveTests.release.xcconfig"; sourceTree = "<group>"; };
+		6A993FC0D8EDA9025255791A /* Pods_SoulLiveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoulLiveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FE5A0C3CFB26960C701A950 /* Pods-SoulLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoulLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoulLive/Pods-SoulLive.release.xcconfig"; sourceTree = "<group>"; };
+		908E3A671F94FEDA00F609A2 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		90F519821F9066DA00C128CD /* SoulLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoulLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90F519851F9066DA00C128CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90F519871F9066DA00C128CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90F5198A1F9066DA00C128CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90F5198C1F9066DA00C128CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90F5198F1F9066DA00C128CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90F519911F9066DA00C128CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90F519961F9066DA00C128CD /* SoulLiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoulLiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90F5199A1F9066DA00C128CD /* SoulLiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoulLiveTests.swift; sourceTree = "<group>"; };
+		90F5199C1F9066DA00C128CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90F519A11F9066DA00C128CD /* SoulLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoulLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90F519A51F9066DA00C128CD /* SoulLiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoulLiveUITests.swift; sourceTree = "<group>"; };
+		90F519A71F9066DA00C128CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90F519C11F909B6C00C128CD /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		90F519C31F909B9200C128CD /* GGDNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GGDNavigationController.swift; sourceTree = "<group>"; };
+		90F519C51F909BAD00C128CD /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		90F519C71F909BB300C128CD /* HomeStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeStoryboard.storyboard; sourceTree = "<group>"; };
+		9A08DD02D6D84E2D99DD9C0E /* Pods_SoulLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoulLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA746B2C77698414EAE0EA15 /* Pods-SoulLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoulLive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoulLive/Pods-SoulLive.debug.xcconfig"; sourceTree = "<group>"; };
+		B5B2991FAD3DBD5E7B8128D1 /* Pods-SoulLiveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoulLiveUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoulLiveUITests/Pods-SoulLiveUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EDCFC3E8F5197D67E6389327 /* Pods_SoulLiveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoulLiveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90F5197F1F9066DA00C128CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A959EA252553E30A48E6E964 /* Pods_SoulLive.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90F519931F9066DA00C128CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2927EEE34A3A357D9D0F195 /* Pods_SoulLiveTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90F5199E1F9066DA00C128CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E901C5D03BBA85EE53793E45 /* Pods_SoulLiveUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9064B06B1F946B44008ADF2D /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				908E3A671F94FEDA00F609A2 /* R.generated.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		90F519791F9066DA00C128CD = {
+			isa = PBXGroup;
+			children = (
+				90F519841F9066DA00C128CD /* SoulLive */,
+				90F519991F9066DA00C128CD /* SoulLiveTests */,
+				90F519A41F9066DA00C128CD /* SoulLiveUITests */,
+				90F519831F9066DA00C128CD /* Products */,
+				C189D7F39DDD24F001C705D4 /* Pods */,
+				DD8636E5745D95F8E74813D5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		90F519831F9066DA00C128CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90F519821F9066DA00C128CD /* SoulLive.app */,
+				90F519961F9066DA00C128CD /* SoulLiveTests.xctest */,
+				90F519A11F9066DA00C128CD /* SoulLiveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90F519841F9066DA00C128CD /* SoulLive */ = {
+			isa = PBXGroup;
+			children = (
+				9064B06B1F946B44008ADF2D /* extension */,
+				90F519B51F9067CB00C128CD /* Classes */,
+				90F519851F9066DA00C128CD /* AppDelegate.swift */,
+				90F519871F9066DA00C128CD /* ViewController.swift */,
+				90F519891F9066DA00C128CD /* Main.storyboard */,
+				90F5198C1F9066DA00C128CD /* Assets.xcassets */,
+				90F5198E1F9066DA00C128CD /* LaunchScreen.storyboard */,
+				90F519911F9066DA00C128CD /* Info.plist */,
+			);
+			path = SoulLive;
+			sourceTree = "<group>";
+		};
+		90F519991F9066DA00C128CD /* SoulLiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				90F5199A1F9066DA00C128CD /* SoulLiveTests.swift */,
+				90F5199C1F9066DA00C128CD /* Info.plist */,
+			);
+			path = SoulLiveTests;
+			sourceTree = "<group>";
+		};
+		90F519A41F9066DA00C128CD /* SoulLiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90F519A51F9066DA00C128CD /* SoulLiveUITests.swift */,
+				90F519A71F9066DA00C128CD /* Info.plist */,
+			);
+			path = SoulLiveUITests;
+			sourceTree = "<group>";
+		};
+		90F519B51F9067CB00C128CD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				90F519B61F9068E500C128CD /* Rank */,
+				90F519B71F9068E500C128CD /* Main */,
+				90F519B81F9068E500C128CD /* Home */,
+				90F519B91F9068E500C128CD /* Base */,
+				90F519BA1F9068E500C128CD /* Discover */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		90F519B61F9068E500C128CD /* Rank */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Rank;
+			sourceTree = "<group>";
+		};
+		90F519B71F9068E500C128CD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				90F519C01F909B5100C128CD /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		90F519B81F9068E500C128CD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				90F519C51F909BAD00C128CD /* HomeViewController.swift */,
+				90F519C71F909BB300C128CD /* HomeStoryboard.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		90F519B91F9068E500C128CD /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		90F519BA1F9068E500C128CD /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				90F519BB1F9068E500C128CD /* Profile */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		90F519BB1F9068E500C128CD /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		90F519C01F909B5100C128CD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				90F519C11F909B6C00C128CD /* MainViewController.swift */,
+				90F519C31F909B9200C128CD /* GGDNavigationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C189D7F39DDD24F001C705D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA746B2C77698414EAE0EA15 /* Pods-SoulLive.debug.xcconfig */,
+				7FE5A0C3CFB26960C701A950 /* Pods-SoulLive.release.xcconfig */,
+				1C2B2165E25E383E9BC21669 /* Pods-SoulLiveTests.debug.xcconfig */,
+				61879E3CCEC12E2EEC0BD3CC /* Pods-SoulLiveTests.release.xcconfig */,
+				B5B2991FAD3DBD5E7B8128D1 /* Pods-SoulLiveUITests.debug.xcconfig */,
+				26CFDD4E5D2E33D4F57BA0CA /* Pods-SoulLiveUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD8636E5745D95F8E74813D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A08DD02D6D84E2D99DD9C0E /* Pods_SoulLive.framework */,
+				6A993FC0D8EDA9025255791A /* Pods_SoulLiveTests.framework */,
+				EDCFC3E8F5197D67E6389327 /* Pods_SoulLiveUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90F519811F9066DA00C128CD /* SoulLive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90F519AA1F9066DA00C128CD /* Build configuration list for PBXNativeTarget "SoulLive" */;
+			buildPhases = (
+				29BCDE841CD7FEF5BD684605 /* [CP] Check Pods Manifest.lock */,
+				90AE18141F946831003BA981 /* ShellScript */,
+				90F5197E1F9066DA00C128CD /* Sources */,
+				90F5197F1F9066DA00C128CD /* Frameworks */,
+				90F519801F9066DA00C128CD /* Resources */,
+				6B27D1CE746BB4F96953C437 /* [CP] Embed Pods Frameworks */,
+				A41F4D20187CE2690BD2E28F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoulLive;
+			productName = SoulLive;
+			productReference = 90F519821F9066DA00C128CD /* SoulLive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90F519951F9066DA00C128CD /* SoulLiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90F519AD1F9066DA00C128CD /* Build configuration list for PBXNativeTarget "SoulLiveTests" */;
+			buildPhases = (
+				47FE679C7B6B5F9CFA438FA3 /* [CP] Check Pods Manifest.lock */,
+				90F519921F9066DA00C128CD /* Sources */,
+				90F519931F9066DA00C128CD /* Frameworks */,
+				90F519941F9066DA00C128CD /* Resources */,
+				068EDEDC74C772D316DCC1DB /* [CP] Embed Pods Frameworks */,
+				35EBB4FC04378035538B0C7E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90F519981F9066DA00C128CD /* PBXTargetDependency */,
+			);
+			name = SoulLiveTests;
+			productName = SoulLiveTests;
+			productReference = 90F519961F9066DA00C128CD /* SoulLiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		90F519A01F9066DA00C128CD /* SoulLiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90F519B01F9066DA00C128CD /* Build configuration list for PBXNativeTarget "SoulLiveUITests" */;
+			buildPhases = (
+				D1DF3286EA46AE57FD0D7081 /* [CP] Check Pods Manifest.lock */,
+				90F5199D1F9066DA00C128CD /* Sources */,
+				90F5199E1F9066DA00C128CD /* Frameworks */,
+				90F5199F1F9066DA00C128CD /* Resources */,
+				BB565FAB7DBC9F9A2AF214F0 /* [CP] Embed Pods Frameworks */,
+				ABAB202818834995B03C7371 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90F519A31F9066DA00C128CD /* PBXTargetDependency */,
+			);
+			name = SoulLiveUITests;
+			productName = SoulLiveUITests;
+			productReference = 90F519A11F9066DA00C128CD /* SoulLiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90F5197A1F9066DA00C128CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "高冠东";
+				TargetAttributes = {
+					90F519811F9066DA00C128CD = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 6PPZ4N88W2;
+						ProvisioningStyle = Automatic;
+					};
+					90F519951F9066DA00C128CD = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 6PPZ4N88W2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 90F519811F9066DA00C128CD;
+					};
+					90F519A01F9066DA00C128CD = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 6PPZ4N88W2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 90F519811F9066DA00C128CD;
+					};
+				};
+			};
+			buildConfigurationList = 90F5197D1F9066DA00C128CD /* Build configuration list for PBXProject "SoulLive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90F519791F9066DA00C128CD;
+			productRefGroup = 90F519831F9066DA00C128CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90F519811F9066DA00C128CD /* SoulLive */,
+				90F519951F9066DA00C128CD /* SoulLiveTests */,
+				90F519A01F9066DA00C128CD /* SoulLiveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90F519801F9066DA00C128CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90F519901F9066DA00C128CD /* LaunchScreen.storyboard in Resources */,
+				90F519C81F909BB300C128CD /* HomeStoryboard.storyboard in Resources */,
+				90F5198D1F9066DA00C128CD /* Assets.xcassets in Resources */,
+				90F5198B1F9066DA00C128CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90F519941F9066DA00C128CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90F5199F1F9066DA00C128CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		068EDEDC74C772D316DCC1DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SoulLiveTests/Pods-SoulLiveTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29BCDE841CD7FEF5BD684605 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoulLive-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35EBB4FC04378035538B0C7E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SoulLiveTests/Pods-SoulLiveTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47FE679C7B6B5F9CFA438FA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoulLiveTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B27D1CE746BB4F96953C437 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SoulLive/Pods-SoulLive-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SoulLive/Pods-SoulLive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90AE18141F946831003BA981 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "/bin/sh ";
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" \"$SRCROOT\"";
+		};
+		A41F4D20187CE2690BD2E28F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SoulLive/Pods-SoulLive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABAB202818834995B03C7371 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SoulLiveUITests/Pods-SoulLiveUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB565FAB7DBC9F9A2AF214F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SoulLiveUITests/Pods-SoulLiveUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1DF3286EA46AE57FD0D7081 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoulLiveUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90F5197E1F9066DA00C128CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90F519C61F909BAD00C128CD /* HomeViewController.swift in Sources */,
+				90F519C21F909B6C00C128CD /* MainViewController.swift in Sources */,
+				90F519881F9066DA00C128CD /* ViewController.swift in Sources */,
+				90F519C41F909B9200C128CD /* GGDNavigationController.swift in Sources */,
+				90F519861F9066DA00C128CD /* AppDelegate.swift in Sources */,
+				908E3A681F94FEDA00F609A2 /* R.generated.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90F519921F9066DA00C128CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90F5199B1F9066DA00C128CD /* SoulLiveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90F5199D1F9066DA00C128CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90F519A61F9066DA00C128CD /* SoulLiveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90F519981F9066DA00C128CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90F519811F9066DA00C128CD /* SoulLive */;
+			targetProxy = 90F519971F9066DA00C128CD /* PBXContainerItemProxy */;
+		};
+		90F519A31F9066DA00C128CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90F519811F9066DA00C128CD /* SoulLive */;
+			targetProxy = 90F519A21F9066DA00C128CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90F519891F9066DA00C128CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90F5198A1F9066DA00C128CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90F5198E1F9066DA00C128CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90F5198F1F9066DA00C128CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90F519A81F9066DA00C128CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		90F519A91F9066DA00C128CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90F519AB1F9066DA00C128CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA746B2C77698414EAE0EA15 /* Pods-SoulLive.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6PPZ4N88W2;
+				INFOPLIST_FILE = SoulLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wdcew.SoulLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		90F519AC1F9066DA00C128CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE5A0C3CFB26960C701A950 /* Pods-SoulLive.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6PPZ4N88W2;
+				INFOPLIST_FILE = SoulLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wdcew.SoulLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		90F519AE1F9066DA00C128CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C2B2165E25E383E9BC21669 /* Pods-SoulLiveTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6PPZ4N88W2;
+				INFOPLIST_FILE = SoulLiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wdcew.SoulLiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoulLive.app/SoulLive";
+			};
+			name = Debug;
+		};
+		90F519AF1F9066DA00C128CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61879E3CCEC12E2EEC0BD3CC /* Pods-SoulLiveTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6PPZ4N88W2;
+				INFOPLIST_FILE = SoulLiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wdcew.SoulLiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoulLive.app/SoulLive";
+			};
+			name = Release;
+		};
+		90F519B11F9066DA00C128CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5B2991FAD3DBD5E7B8128D1 /* Pods-SoulLiveUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6PPZ4N88W2;
+				INFOPLIST_FILE = SoulLiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wdcew.SoulLiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SoulLive;
+			};
+			name = Debug;
+		};
+		90F519B21F9066DA00C128CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26CFDD4E5D2E33D4F57BA0CA /* Pods-SoulLiveUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6PPZ4N88W2;
+				INFOPLIST_FILE = SoulLiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wdcew.SoulLiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SoulLive;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90F5197D1F9066DA00C128CD /* Build configuration list for PBXProject "SoulLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90F519A81F9066DA00C128CD /* Debug */,
+				90F519A91F9066DA00C128CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90F519AA1F9066DA00C128CD /* Build configuration list for PBXNativeTarget "SoulLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90F519AB1F9066DA00C128CD /* Debug */,
+				90F519AC1F9066DA00C128CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90F519AD1F9066DA00C128CD /* Build configuration list for PBXNativeTarget "SoulLiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90F519AE1F9066DA00C128CD /* Debug */,
+				90F519AF1F9066DA00C128CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90F519B01F9066DA00C128CD /* Build configuration list for PBXNativeTarget "SoulLiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90F519B11F9066DA00C128CD /* Debug */,
+				90F519B21F9066DA00C128CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90F5197A1F9066DA00C128CD /* Project object */;
+}
